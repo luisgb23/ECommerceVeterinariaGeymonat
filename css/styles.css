@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2? family= JetBrains+Mono & display=swap');
+
+*{
+    font-family: 'JetBrains Mono', monospace;
+}
+.titulo{
+    color: rgb(9, 95, 66);
+    font-weight: bold;
+}
+.subtitulo{
+    color: rgb(9, 95, 66);
+}
+.precio{
+    font-weight: bold;
+}
+.contenedor{
+    max-width: 1200px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-producto{
+    object-fit: contain;
+}
+
+.card-producto{
+    width: 230px;
+    height: 350px;
+    margin: 10px;
+    border: none;
+    box-shadow: 10px 6px 6px rgb(211,211,211,0.221);
+}
+
+.icono{
+    cursor: pointer;
+}
+
+.btnComprar{
+    font-size: large;
+}
+
+
+
+
+
